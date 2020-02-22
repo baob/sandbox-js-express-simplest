@@ -2,8 +2,9 @@ var express = require('express');
 var router = express.Router();
 
 /* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
+// eslint-disable-next-line no-unused-vars
+router.get('/', function(_req, res, _next) {
+    res.send('respond with a resource');
 });
 
 module.exports = router;
