@@ -19,9 +19,10 @@ NOTE: [dotenv](https://github.com/motdotla/dotenv) is used for configuration
 
 ## TODO
 
-* jest
+* jest 
 * flow
 * babel
 * foreman
 * templates
 * more from [express official intro](https://expressjs.com/en/starter/hello-world.html)
+* [mocking](https://codewithhugo.com/express-request-response-mocking/)
