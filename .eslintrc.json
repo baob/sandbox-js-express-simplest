@@ -12,7 +12,9 @@
         "ecmaVersion": 2018,
         "sourceType": "script"
     },
+    "plugins": ["prettier"],
     "rules": {
+      "prettier/prettier": "error",
       "no-extra-semi": 1,
       "semi": ["error", "always"]
     }
