@@ -11,6 +11,8 @@ Maybe also [Best practices](https://github.com/Hilzu/node-best-practices)
     cp .env.sample .env
     yarn
 
+NOTE: [dotenv](https://github.com/motdotla/dotenv) is used for configuration
+
 ## Running
 
     node app.js
