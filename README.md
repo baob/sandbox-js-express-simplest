@@ -17,3 +17,11 @@ NOTE: [dotenv](https://github.com/motdotla/dotenv) is used for configuration
 
     node app.js
 
+## TODO
+
+* jest
+* flow
+* babel
+* foreman
+* templates
+* more from [express official intro](https://expressjs.com/en/starter/hello-world.html)
