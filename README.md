@@ -20,7 +20,6 @@ NOTE: [dotenv](https://github.com/motdotla/dotenv) is used for configuration
 ## TODO
 
 * vscode recommendations
-* flow
 * templates
 * more from [express official FAQ](https://expressjs.com/en/starter/faq.html)  (MVC, 404, ...)
 * [mocking](https://codewithhugo.com/express-request-response-mocking/)
@@ -35,3 +34,4 @@ NOTE: [dotenv](https://github.com/motdotla/dotenv) is used for configuration
 * jest coverage
 * jest in vs.code
 * notifier
+* flow
