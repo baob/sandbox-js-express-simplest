@@ -19,8 +19,7 @@ NOTE: [dotenv](https://github.com/motdotla/dotenv) is used for configuration
 
 ## TODO
 
-* jest coverage
-* jest in vs.code
+* notifier
 * vscode recommendations
 * flow
 * templates
@@ -34,3 +33,5 @@ NOTE: [dotenv](https://github.com/motdotla/dotenv) is used for configuration
 * [jest](https://dev.to/nedsoft/testing-nodejs-express-api-with-jest-and-supertest-1km6)
 * [jest/lint recommendations](https://github.com/jest-community/eslint-plugin-jest)
 * jest watch
+* jest coverage
+* jest in vs.code
