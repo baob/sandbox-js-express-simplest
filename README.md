@@ -21,8 +21,10 @@ NOTE: [dotenv](https://github.com/motdotla/dotenv) is used for configuration
 
 * jest
 * flow
-* [babel/es6](https://medium.com/javascript-in-plain-english/using-es6-for-your-backend-nodejs-application-running-on-express-using-babel-5503bded9842)
-* foreman
 * templates
-* more from [express official intro](https://expressjs.com/en/starter/hello-world.html)
+* more from [express official FAQ](https://expressjs.com/en/starter/faq.html)  (MVC, 404, ...)
 * [mocking](https://codewithhugo.com/express-request-response-mocking/)
+
+## Done
+
+* [babel/es6](https://medium.com/javascript-in-plain-english/using-es6-for-your-backend-nodejs-application-running-on-express-using-babel-5503bded9842)
