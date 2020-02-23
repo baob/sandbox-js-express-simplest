@@ -6,9 +6,11 @@ module.exports = {
     // displayName: pack.name,
     name: pack.name,
     testEnvironment: 'node',
-    coveragePathIgnorePatterns: ['/node_modules/'],
-
     runner: 'jest-runner-eslint',
     displayName: 'lint',
-    testMatch: ['<rootDir>/**/*.js'],
+    testMatch: [
+        '<rootDir>/app*.js',
+        '<rootDir>/tests/*.js',
+        '<rootDir>/routes/*.js',
+    ],
 };
