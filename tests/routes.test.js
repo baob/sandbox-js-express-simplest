@@ -28,7 +28,6 @@ describe('app routes', () => {
                 });
 
             // console.log('res:', JSON.stringify(res));
-            // console.log('res.body:', JSON.stringify(res.body));
             // console.log('res.headers:', JSON.stringify(res.headers));
             // console.log('res.request:', JSON.stringify(res.request));
 
@@ -38,6 +37,21 @@ describe('app routes', () => {
                 'text/html; charset=utf-8'
             );
             expect(res).toHaveProperty('text', 'respond with a resource');
+        });
+    });
+    describe('GET /foobar', () => {
+        it('gives 404', async () => {
+            const res = await request(app)
+                .get('/foobar')
+                .send();
+
+            expect(res.statusCode).toEqual(404);
+            expect(res.headers).toHaveProperty(
+                'content-type',
+                'text/html; charset=utf-8'
+            );
+            expect(res).toHaveProperty('text');
+            expect(res.text).toMatch(/Not found/i);
         });
     });
 });
