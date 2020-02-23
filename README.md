@@ -21,6 +21,8 @@ NOTE: [dotenv](https://github.com/motdotla/dotenv) is used for configuration
 
 * jest coverage
 * jest watch
+* jest in vs.code
+* vscode recommendations
 * flow
 * templates
 * more from [express official FAQ](https://expressjs.com/en/starter/faq.html)  (MVC, 404, ...)
