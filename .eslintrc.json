@@ -2,18 +2,31 @@
     "env": {
         "node": true,
         "commonjs": true,
-        "es6": true
-    },
+        "es6": true,
+        "jest/globals": true
+      },
     "extends": [
-      "eslint:recommended"
+      "eslint:recommended",
+      "plugin:jest/recommended",
+      "plugin:jest/style"
     ],
     "globals": {},
     "parserOptions": {
         "ecmaVersion": 2018,
         "sourceType": "module"
     },
-    "plugins": ["prettier"],
+    "plugins": [
+      "prettier",
+      "jest"
+    ],
     "rules": {
-      "prettier/prettier": "error"
-    }
+      "prettier/prettier": "error",
+      "jest/no-disabled-tests": "warn",
+      "jest/no-focused-tests": "warn",
+      "jest/no-identical-title": "warn",
+      "jest/no-test-prefixes": "warn",
+      "jest/prefer-to-have-length": "warn",
+      "jest/valid-expect": "error",
+      "jest/prefer-todo": "warn"
+      }
 }
