@@ -6,7 +6,9 @@
         "jest/globals": true
       },
     "extends": [
-      "eslint:recommended"
+      "eslint:recommended",
+      "plugin:jest/recommended",
+      "plugin:jest/style"
     ],
     "globals": {},
     "parserOptions": {
@@ -18,6 +20,13 @@
       "jest"
     ],
     "rules": {
-      "prettier/prettier": "error"
-    }
+      "prettier/prettier": "error",
+      "jest/no-disabled-tests": "warn",
+      "jest/no-focused-tests": "warn",
+      "jest/no-identical-title": "warn",
+      "jest/no-test-prefixes": "warn",
+      "jest/prefer-to-have-length": "warn",
+      "jest/valid-expect": "error",
+      "jest/prefer-todo": "warn"
+      }
 }
