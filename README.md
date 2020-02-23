@@ -19,7 +19,6 @@ NOTE: [dotenv](https://github.com/motdotla/dotenv) is used for configuration
 
 ## TODO
 
-* notifier
 * vscode recommendations
 * flow
 * templates
@@ -35,3 +34,4 @@ NOTE: [dotenv](https://github.com/motdotla/dotenv) is used for configuration
 * jest watch
 * jest coverage
 * jest in vs.code
+* notifier
