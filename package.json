@@ -32,7 +32,8 @@
   "scripts": {
     "start": "node ./bin/www",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "dev": "jest --watch"
   },
   "author": "",
   "license": "ISC"
