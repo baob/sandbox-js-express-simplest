@@ -34,7 +34,7 @@
     "start": "node ./bin/www",
     "test": "jest",
     "lint": "eslint .",
-    "dev": "jest --watch"
+    "dev": "jest --watchAll --notify"
   },
   "author": "",
   "license": "ISC"
