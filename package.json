@@ -38,8 +38,12 @@
   },
   "scripts": {
     "start": "node ./bin/www",
-    "test": "jest",
-    "lint": "eslint .",
+    "jest": "jest",
+    "test": "jest --config jest-test.config.js",
+    "lint": "jest --config jest-eslint.config.js",
+    "flow": "jest --config jest-flow.config.js",
+    "lint:raw": "eslint .",
+    "flow:raw": "flow",
     "dev": "jest --watchAll --notify"
   },
   "author": "",
