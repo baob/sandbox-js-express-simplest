@@ -32,6 +32,7 @@
     "flow-bin": "^0.118.0",
     "jest": "^25.1.0",
     "jest-runner-eslint": "^0.7.6",
+    "jest-runner-flowtype": "^0.0.7",
     "prettier": "1.19.1",
     "supertest": "^4.0.2"
   },
