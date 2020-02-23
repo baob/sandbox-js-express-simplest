@@ -19,7 +19,7 @@ NOTE: [dotenv](https://github.com/motdotla/dotenv) is used for configuration
 
 ## TODO
 
-* jest
+* [jest](https://dev.to/nedsoft/testing-nodejs-express-api-with-jest-and-supertest-1km6)
 * flow
 * templates
 * more from [express official FAQ](https://expressjs.com/en/starter/faq.html)  (MVC, 404, ...)
