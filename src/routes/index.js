@@ -1,3 +1,5 @@
+// @flow
+
 import { Router } from 'express';
 var router = Router();
 
@@ -8,3 +10,9 @@ router.get('/', function(_req, res, _next) {
 });
 
 export default router;
+
+const fred = (x: string) => {
+    return ' a string' + x;
+};
+
+fred(3);
