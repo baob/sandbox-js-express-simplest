@@ -19,7 +19,9 @@ NOTE: [dotenv](https://github.com/motdotla/dotenv) is used for configuration
 
 ## TODO
 
-* vscode recommendations
+* vscode recommended plugins
+* vscode runner for jest
+* [middleware](https://expressjs.com/en/guide/using-middleware.html)
 * templates
 * more from [express official FAQ](https://expressjs.com/en/starter/faq.html)  (MVC, 404, ...)
 * [mocking](https://codewithhugo.com/express-request-response-mocking/)
