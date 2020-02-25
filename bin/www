@@ -9,7 +9,7 @@ require('@babel/register')({
  * Module dependencies.
  */
 
-var app = require('../app').default;
+var app = require('../src/app').default;
 var debug = require('debug')('express-simplest:server');
 var http = require('http');
 

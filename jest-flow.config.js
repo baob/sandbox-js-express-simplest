@@ -8,9 +8,5 @@ module.exports = {
     testEnvironment: 'node',
     runner: 'jest-runner-flowtype',
     displayName: 'flow',
-    testMatch: [
-        '<rootDir>/app*.js',
-        '<rootDir>/tests/*.js',
-        '<rootDir>/routes/*.js',
-    ],
+    testMatch: ['<rootDir>/src/**/*.js'],
 };
