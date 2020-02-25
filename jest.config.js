@@ -6,4 +6,5 @@ module.exports = {
         '<rootDir>/jest-eslint.config.js',
         '<rootDir>/jest-flow.config.js',
     ],
+    watchPlugins: ['jest-runner-eslint/watch-fix'],
 };

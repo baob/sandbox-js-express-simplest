@@ -13,4 +13,5 @@ module.exports = {
         '<rootDir>/tests/*.js',
         '<rootDir>/routes/*.js',
     ],
+    watchPlugins: ['jest-runner-eslint/watch-fix'],
 };
