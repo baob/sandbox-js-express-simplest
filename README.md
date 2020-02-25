@@ -19,8 +19,9 @@ NOTE: [dotenv](https://github.com/motdotla/dotenv) is used for configuration
 
 ## TODO
 
-* vscode recommended plugins
-* vscode runner for jest
+* best practice folder structure / auto switch code/test
+* [node.js best practices](https://www.codementor.io/@mattgoldspink/nodejs-best-practices-du1086jja)
+* [node.js/express folders/architecture](https://softwareontheroad.com/ideal-nodejs-project-structure/)
 * [middleware](https://expressjs.com/en/guide/using-middleware.html)
 * templates
 * more from [express official FAQ](https://expressjs.com/en/starter/faq.html)  (MVC, 404, ...)
@@ -37,3 +38,5 @@ NOTE: [dotenv](https://github.com/motdotla/dotenv) is used for configuration
 * jest in vs.code
 * notifier
 * flow
+* vscode recommended plugins
+* vscode runner for jest
