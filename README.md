@@ -19,6 +19,7 @@ NOTE: [dotenv](https://github.com/motdotla/dotenv) is used for configuration
 
 ## TODO
 
+* configure to insist on som flow-typing
 * best practice folder structure / auto switch code/test
 * [node.js best practices](https://www.codementor.io/@mattgoldspink/nodejs-best-practices-du1086jja)
 * [node.js/express folders/architecture](https://softwareontheroad.com/ideal-nodejs-project-structure/)
