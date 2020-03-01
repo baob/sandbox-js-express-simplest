@@ -12,7 +12,7 @@ router.get('/', function(_req, res, _next) {
 export default router;
 
 const fred = (x: string) => {
-    return ' a string' + x;
+  return ' a string' + x;
 };
 
 fred(3);
