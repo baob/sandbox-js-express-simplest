@@ -15,11 +15,12 @@ NOTE: [dotenv](https://github.com/motdotla/dotenv) is used for configuration
 
 ## Running
 
-    node app.js
+    yarn start
 
 ## TODO
 
-* configure to insist on som flow-typing
+* configure to insist on some flow-typing
+* webpack ?
 * best practice folder structure / auto switch code/test
 * [node.js best practices](https://www.codementor.io/@mattgoldspink/nodejs-best-practices-du1086jja)
 * [node.js/express folders/architecture](https://softwareontheroad.com/ideal-nodejs-project-structure/)
