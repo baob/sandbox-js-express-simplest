@@ -3,10 +3,10 @@ const pack = require('./package');
 // See https://jestjs.io/docs/en/configuration
 
 module.exports = {
-    // displayName: pack.name,
-    name: pack.name,
-    testEnvironment: 'node',
-    runner: 'jest-runner-flowtype',
-    displayName: 'flow',
-    testMatch: ['<rootDir>/src/**/*.js'],
+  // displayName: pack.name,
+  name: pack.name,
+  testEnvironment: 'node',
+  runner: 'jest-runner-flowtype',
+  displayName: 'flow',
+  testMatch: ['<rootDir>/src/**/*.js'],
 };
